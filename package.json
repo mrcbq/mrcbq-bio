@@ -7,13 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrcbq/mrcbq-bio.git"
   },
-  "homepage": "https://github.com/mrcbq/mrcbq-bio#readme",
+  "homepage": "https://github.com/mrcbq/mrcbq-bio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
