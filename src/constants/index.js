@@ -15,14 +15,17 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  halliburton,
+  microverse,
+  mecl,
+  ror,
+  python,
+  postgresql,
+  coinmarket
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +49,11 @@ const services = [
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Rails Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Developer",
     icon: backend,
   }
 ];
@@ -78,11 +81,11 @@ const technologies = [
   },
   {
     name: "Ruby on Rails",
-    icon: figma,
+    icon: ror,
   },
   {
     name: "Python",
-    icon: docker,
+    icon: python,
   },
   {
     name: "Node JS",
@@ -94,7 +97,7 @@ const technologies = [
   },
   {
     name: "PostgreSQL",
-    icon: mongodb,
+    icon: postgresql,
   },
   {
     name: "MongoDB",
@@ -110,7 +113,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Highlighted Personal Projects",
-    icon: starbucks,
+    icon: microverse,
     iconBg: "#383E56",
     date: "Feb 2023 - Present",
     points: [
@@ -123,7 +126,7 @@ const experiences = [
   {
     title: "Sr Tech professional",
     company_name: "Halliburton",
-    icon: tesla,
+    icon: halliburton,
     iconBg: "#E6DEDD",
     date: "Sep 2018 - Dec 2020",
     points: [
@@ -135,7 +138,7 @@ const experiences = [
   {
     title: "Production Engineer",
     company_name: "Mansarovar Energy",
-    icon: shopify,
+    icon: mecl,
     iconBg: "#383E56",
     date: "Jan 2013 - Dec 2017",
     points: [
@@ -147,11 +150,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I am delighted to recommend Marco as an exceptional programmer. Marco's in-depth knowledge of programming concepts and languages is truly impressive. His ability to write clean, efficient, and well-documented code showcases their attention to detail and commitment to producing top-notch work. Marco's strong communication skills and collaborative approach make him an excellent team player. His unwavering work ethic, combined with a genuine passion for programming, sets him apart. I am confident that Marco's technical prowess and dedication to continuous growth will make a significant impact wherever he goes.",
+      "I am delighted to recommend Marco as an exceptional programmer. His in-depth knowledge of programming concepts and languages is truly impressive, ability to write clean, efficient, and well-documented code showcases their attention to detail and commitment to producing top-notch work. I am confident that Marco's technical prowess and dedication to continuous growth will make a significant impact wherever he goes.",
     name: "Ignacio Fino",
     designation: "Software Developer & Web Designer",
     company: "Microverse School",
-    image: "https://media.licdn.com/dms/image/D4D35AQFn-7qRUfF9jw/profile-framedphoto-shrink_800_800/0/1687361639786?e=1699027200&v=beta&t=Mr3hGbH3jUYBflPFIZM_RlQszKkY4aT52LrWQsrq0Gw",
+    image: "https://media.licdn.com/dms/image/D4D35AQFn-7qRUfF9jw/profile-framedphoto-shrink_800_800/0/1687361639786?e=1699675200&v=beta&t=3SSdwox4rDv2vijNoj5yM3s4bWY0KMh5BRhCzfKsyFA",
   },
   {
     testimonial:
@@ -178,20 +181,25 @@ const projects = [
       "Rentals web app, Add and remove cars with user authentication, handle reservations for normal users, and store information in a database.",
     tags: [
       {
-        name: "react",
+        name: "rails",
         color: "blue-text-gradient",
       },
       {
-        name: "rails",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "Postgresql",
+        name: "postgresql",
         color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://rentals-app-egry.onrender.com/",
+    source_code_link: "https://github.com/mrcbq/rentals-app",
+    live_code_link: "https://rentals-app-egry.onrender.com/",
   },
   {
     name: "Space Travelers",
@@ -212,7 +220,30 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://mrcbq.github.io/space-travelers-capstone/",
+    source_code_link: "https://github.com/mrcbq/space-travelers-capstone/",
+    live_code_link: "https://mrcbq.github.io/space-travelers-capstone/",
+  },
+  {
+    name: "Coinmarket",
+    description:
+      "SPA fully responsive, that displays information about the top 100 cryptocurrencies in the world. The application shows the top 100 and allows users to select a cryptocurrency to view more information about it",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: coinmarket,
+    source_code_link: "https://github.com/mrcbq/coinmarket/",
+    live_code_link: "https://mrcbq.github.io/coinmarket/#/",
   },
   {
     name: "R&M API",
@@ -220,7 +251,7 @@ const projects = [
       "Handles 2 APIs, for getting and posting data, and viewing the characters of TV shows in a playful way",
     tags: [
       {
-        name: "vanilla javascript",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -233,7 +264,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://mrcbq.github.io/capstone-rick-and-morty-api/",
+    source_code_link: "https://github.com/mrcbq/capstone-rick-and-morty-api/",
+    live_code_link: "https://mrcbq.github.io/capstone-rick-and-morty-api/",
   },
 ];
 
