@@ -110,6 +110,17 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Jr Software Developer",
+    company_name: "DSteam",
+    icon: "https://www.dsteamseguridad.com/pagina/templates/theme558/images/logo.png",
+    iconBg: "#383E56",
+    date: "Jan 2022 - Dec 2022",
+    points: [
+      "Develop more than 5 API’s for intern client",
+      "Collaborated in structuring and developing web applications for clients, leveraging React, and Redux to create dynamic user experiences.",
+    ],
+  },
   {
     title: "Full Stack Developer",
     company_name: "Highlighted Personal Projects",
@@ -135,16 +146,16 @@ const experiences = [
       "Acted as a key point of contact for clients, explaining work procedures, and resolving any concerns or issues.",
     ],
   },
-  {
-    title: "Production Engineer",
-    company_name: "Mansarovar Energy",
-    icon: mecl,
-    iconBg: "#383E56",
-    date: "Jan 2013 - Dec 2017",
-    points: [
-      "Won company innovation program twice for Algorithms and reports to optimize production, leveraging data from frequency inverters. And defined control logic to enhance surface facilities and optimize well production.",
-    ],
-  },
+  // {
+  //   title: "Production Engineer",
+  //   company_name: "Mansarovar Energy",
+  //   icon: mecl,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2013 - Dec 2017",
+  //   points: [
+  //     "Won company innovation program twice for Algorithms and reports to optimize production, leveraging data from frequency inverters. And defined control logic to enhance surface facilities and optimize well production.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -154,7 +165,7 @@ const testimonials = [
     name: "Ignacio Fino",
     designation: "Software Developer & Web Designer",
     company: "Microverse School",
-    image: "https://media.licdn.com/dms/image/D4D35AQFn-7qRUfF9jw/profile-framedphoto-shrink_800_800/0/1687361639786?e=1699675200&v=beta&t=3SSdwox4rDv2vijNoj5yM3s4bWY0KMh5BRhCzfKsyFA",
+    image: "https://media.licdn.com/dms/image/D4D35AQFn-7qRUfF9jw/profile-framedphoto-shrink_800_800/0/1687361640437?e=1700604000&v=beta&t=WlPPzQS6mbzFu6cYX3fXKZoZ4QP7GTT6f4CNV5T5n4A",
   },
   {
     testimonial:

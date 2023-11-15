@@ -4,8 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: './',
   build: {
-    outDir: 'dist', // Carpeta de salida principal
-    assetsDir: 'assets', // Carpeta de activos (archivos estáticos)
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
 })
