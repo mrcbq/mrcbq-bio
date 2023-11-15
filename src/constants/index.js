@@ -110,17 +110,6 @@ const technologies = [
 ];
 
 const experiences = [
-    {
-    title: "Jr Software Developer",
-    company_name: "DSteam",
-    icon: "https://www.dsteamseguridad.com/pagina/templates/theme558/images/logo.png",
-    iconBg: "#383E56",
-    date: "Jan 2022 - Dec 2022",
-    points: [
-      "Develop more than 5 API’s for intern client",
-      "Collaborated in structuring and developing web applications for clients, leveraging React, and Redux to create dynamic user experiences.",
-    ],
-  },
   {
     title: "Full Stack Developer",
     company_name: "Highlighted Personal Projects",
@@ -132,6 +121,17 @@ const experiences = [
       "Collaborating with other developers to create high-quality products, using pair programming and following requeriments and figma design.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Jr Software Developer",
+    company_name: "DSteam",
+    icon: "https://www.dsteamseguridad.com/pagina/templates/theme558/images/logo.png",
+    iconBg: "#383E56",
+    date: "Jan 2022 - Dec 2022",
+    points: [
+      "Develop more than 5 API’s for intern client",
+      "Collaborated in structuring and developing web applications for clients, leveraging React, and Redux to create dynamic user experiences.",
     ],
   },
   {
